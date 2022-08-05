@@ -471,7 +471,8 @@ h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("https://www.xda-developers.com/files/2020/05/Surface-Sprint-2020-Feature.jpg") top left;
+  background: url("https://wallpapercave.com/wp/wp5832540.jpg") top left;
+/*       background: url("https://thegadgetflow.com/wp-content/uploads/2022/06/The-best-gaming-laptops-to-buy-this-summer-blog-featured.jpeg") top left; */
   background-size: cover;
   position: relative;
 }
@@ -606,12 +607,12 @@ section {
 }
 
 .section-title h2 {
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 1px;
   font-weight: 700;
   padding: 8px 20px;
   margin: 0;
-  background: #e7f1fd;
+  background: #dff1f7;
   color: #106eea;
   display: inline-block;
   text-transform: uppercase;
@@ -697,12 +698,32 @@ section {
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
+.featured-services {
+  padding: 80px 0;
+  background: url("https://thegadgetflow.com/wp-content/uploads/2022/06/The-best-gaming-laptops-to-buy-this-summer-blog-featured.jpeg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+
+#featured-services:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
 .featured-services .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
   background: #fff;
-  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.3);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
@@ -857,7 +878,7 @@ section {
   width: 100%;
   position: relative;
   text-align: center;
-  background: #f1f6fe;
+  background: #dff1f7;
 }
 
 .counts .count-box i {
@@ -920,9 +941,32 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+/* .services {
+  padding: 80px 0;
+  background: url("https://wallpapercave.com/wp/wp5832540.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+
+#services:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+ */
+
+
 .services .icon-box {
   text-align: center;
-  border: 1px solid #e2eefd;
+  border: 1px solid #e2eefa;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
@@ -979,12 +1023,90 @@ section {
   border-color: #106eea;
 }
 
+
+
+
+
+
+/*-----------------------------------------------
+# Services 1
+------------------------------------------------*/
+
+.services1 .icon-box {
+  text-align: center;
+  border: 1px solid #e2eefd;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+}
+
+.services1 .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: #f1f6fe;
+  border-radius: 4px;
+  border: 1px solid #deebfd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: ease-in-out 0.3s;
+}
+
+.services1 .icon-box .icon i {
+  color: #3b8af2;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+}
+
+.services1 .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.services1 .icon-box h4 a {
+  color: #222222;
+  transition: ease-in-out 0.3s;
+}
+
+.services1 .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services1 .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(16, 110, 234, 0.1);
+}
+
+.services1 .icon-box:hover h4 a,
+.services1 .icon-box:hover .icon i {
+  color: #106eea;
+}
+
+.services1 .icon-box:hover .icon {
+  border-color: #106eea;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("https://images.unsplash.com/photo-1493946947703-a0e68b050bee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGFwdG9wJTIwZGFya3xlbnwwfHwwfHw%3D&w=1000&q=80") no-repeat;
+  background: url("https://miro.medium.com/max/1400/0*9daiANJwa-3NZ-Pj") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -997,7 +1119,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.85);
 }
 
 .testimonials .section-header {
@@ -2421,6 +2543,7 @@ h4{text-align:center;margin:30px 0;color:#444}
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+
 .features .nav-tabs {
   border: 0;
 }
@@ -2444,12 +2567,12 @@ h4{text-align:center;margin:30px 0;color:#444}
   margin: 0;
 }
 .features .nav-link:hover {
-  color: #ff4a17;
+  color: #1d72ec;
 }
 .features .nav-link.active {
-  background: #ff4a17;
+  background: #1d72ec;
   color: #fff;
-  border-color: #ff4a17;
+  border-color: #1d72ec;
 }
 @media (max-width: 768px) {
   .features .nav-link i {
@@ -2483,7 +2606,7 @@ h4{text-align:center;margin:30px 0;color:#444}
 .features .tab-pane ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #ff4a17;
+  color: #1d72ec;
 }
 .features .tab-pane p:last-child {
   margin-bottom: 0;
@@ -2515,7 +2638,7 @@ h4{text-align:center;margin:30px 0;color:#444}
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #ff4a17;
+  background: #1d72ec;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -2537,7 +2660,7 @@ h4{text-align:center;margin:30px 0;color:#444}
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #ff4a17;
+  background: #1d72ec;
   padding: 15px 20px;
 }
 .portfolio .portfolio-item .portfolio-info h4 {
@@ -2590,10 +2713,10 @@ h4{text-align:center;margin:30px 0;color:#444}
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ff4a17;
+  border: 1px solid #1d72ec;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ff4a17;
+  background-color: #1d72ec;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -2626,3 +2749,80 @@ h4{text-align:center;margin:30px 0;color:#444}
   padding: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+@font-face {
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+
+
+.neon {
+  font-family: neon;
+  color: #FB4264;
+  font-size: 2vw;
+  line-height: 2vw;
+  text-shadow: 0 0 1vw #F40A35;
+}
+
+.flux {
+  font-family: neon;
+  color: #426DFB;
+  font-size: 2vw;
+  line-height: 2vw;
+  text-shadow: 0 0 1vw #2356FF;
+}
+
+.neon {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+.flux {
+  animation: flux 2s linear infinite;
+  -moz-animation: flux 2s linear infinite;
+  -webkit-animation: flux 2s linear infinite;
+  -o-animation: flux 2s linear infinite;
+}
+
+@keyframes flux {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #28D7FE;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #146C80;
+  }
+}
+
+*/
